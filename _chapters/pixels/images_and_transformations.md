@@ -467,7 +467,7 @@ in practice.
 
 A perceptron is deﬁned as \\( f(x; w, b) = sgn(w^\top x + b \\). MLPs are fully connected nets that take on
 
-the general form of \\[ f(x;\theta) = g_{\theta}_{1} \circ \cdots \circ g_{\theta}_{N}(x) \\]. The layers of MLPs include linear weighting
+the general form of \\( f(x;\theta) = g_{\theta 1} \circ \cdots \circ g_{\theta N}(x) \\). The layers of MLPs include linear weighting
 
 and activation functions. For MLPs the Universal Approximation Theorem applies meaning that an
 
