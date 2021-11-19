@@ -439,6 +439,7 @@ have (implicit) assumptions that ﬁt many CV problems very well.
 
 Figure 6: The generalized ML equation highlighting the model variable.
 </div>
+</div>
 
 #### 2.3.1 Deep Learning (DL) Models
 
