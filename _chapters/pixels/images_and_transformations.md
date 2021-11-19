@@ -1,5 +1,5 @@
 ---
-title: ML for CV: A Brief Overview
+title: ML for CV
 keywords: (insert comma-separated keywords here)
 order: 2 # Lecture number for 2020
 ---
