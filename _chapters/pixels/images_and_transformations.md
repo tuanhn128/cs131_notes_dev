@@ -585,6 +585,7 @@ Virtually all problems in CV have ML applications. CV as a high-level challenge 
 understanding from pixel values of images and video. The training of ML models allows for this
 
 understanding to be learned from experience rather than having to be coded explicitly.
+	
 <a name='subtopic-3-2'></a>
 
 ### 3.2 Tasks
