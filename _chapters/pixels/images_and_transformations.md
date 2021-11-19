@@ -37,6 +37,13 @@ to why ML could be useful in the ﬁeld of computer vision.
 
 15, Slide 8](/assets/images/catordog.png)
 
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/catordog.png">
+  <div class="figcaption">Figure 1: An optical illusion where the shapes in the picture appear to be moving. Source: Lecture
+
+15, Slide 8</div>
+</div>
+
 Using the example of the picture above, it is apparent that we interpret images using more than just
 
 our eyes. In fact, we see more with our brain than we do with our eyes. We use our brains to better
