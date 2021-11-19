@@ -21,15 +21,16 @@ Stanford, CA 94305
 	- [How Humans Interpret the World](#subtopic-1-1)
 	- [Understanding Pixels](#subtopic-1-2)
 	- [Key Considerations when using ML](#subtopic-1-3)
-- [ML Foundations](#first-big-topic)
-	- [Data](#subtopic-1-1)
-	- [Types of ML problemsn](#subtopic-1-2)
-	- [ML Models](#subtopic-1-3)
-- [ML Applications in CV](#first-big-topic)
-	- [ML Problems in CV](#subtopic-1-1)
-	- [Tasks](#subtopic-1-2)
-	- [Applications](#subtopic-1-3)
+- [ML Foundations](#second-big-topic)
+	- [Data](#subtopic-2-1)
+	- [Types of ML problemsn](#subtopic-2-2)
+	- [ML Models](#subtopic-2-3)
+- [ML Applications in CV](#third-big-topic)
+	- [ML Problems in CV](#subtopic-3-1)
+	- [Tasks](#subtopic-3-2)
+	- [Applications](#subtopic-3-3)
 
+<a name='first-big-topic'></a>
 ## 1 Why CV Needs ML
 
 Throughout this quarter, it has been shown how computer vision can accurately and effectively make
@@ -40,6 +41,7 @@ sense of the world around us using geometry, linear algebra, or other various me
 
 be helpful in solving computer vision problems?
 
+<a name='subtopic-1-1'></a>
 ### 1.1 How Humans Interpret the World
 
 First, it is important to understand how humans see the world around us. This might give us a clue as
@@ -65,6 +67,7 @@ allow us to do the same thing: apply past knowledge and data to help better unde
 
 image.
 
+<a name='subtopic-1-2'></a>
 ### 1.2 Understanding Pixels
 
 Computers cannot "see" in the same way that we do. Images for computers are simply pixel arrays
@@ -85,6 +88,7 @@ in noisy and imperfect conditions, computers have enough context about the probl
 
 interpret the scene.
 
+<a name='subtopic-1-3'></a>
 ### 1.3 Key Considerations when using ML
 
 ML can be an extremely powerful tool. In order to use ML in an effective and safe manner, it is
@@ -111,6 +115,7 @@ burden and the decisions these algorithms make can sometimes be in life or death
 
 self-driving cars)
 
+<a name='second-big-topic'></a>
 ## 2 ML Foundations
 
 <div class="fig figcenter fighighlight">
@@ -137,7 +142,7 @@ D. The lower the expectation of the loss function, the more accurate our model i
 
 
 
-
+<a name='subtopic-2-1'></a>
 ### 2.1 Data
 
 As previously discussed, understanding how data comes into this equation will summarize much of
@@ -270,6 +275,8 @@ There are many datasets available on line for research. There are more than 5,00
 
 [paperswithcode.com.](https://paperswithcode.com/)
 
+
+<a name='subtopic-2-2'></a>
 ### 2.2 Types of ML problems
 
 #### 2.2.1 Supervised Learning
@@ -425,7 +432,7 @@ Lecture 15, Slide 31
 </div>
 </div>
 
-
+<a name='subtopic-2-3'></a>
 ### 2.3 ML Models
 
 Choosing the correct ML models depends ﬁrst and foremost on the data type of both x and y. From
@@ -584,8 +591,11 @@ The goal of ML engineering is to solidify the empirical practice of ML. This is 
 
 traceability, auditability, safety, and efﬁciency.
 
+
+<a name='third-big-topic'></a>
 ##3 ML Applications in CV
 
+<a name='subtopic-3-1'></a>
 ### 3.1 ML Problems in CV
 
 Virtually all problems in CV have ML applications. CV as a high-level challenge involves semantic
@@ -593,6 +603,7 @@ Virtually all problems in CV have ML applications. CV as a high-level challenge 
 understanding from pixel values of images and video. The training of ML models allows for this
 
 understanding to be learned from experience rather than having to be coded explicitly.
+<a name='subtopic-3-2'></a>
 
 ### 3.2 Tasks
 
@@ -676,6 +687,7 @@ identify the behavior of. Source: Lecture 15, Slide 57
 </div>
 </div>
 
+<a name='subtopic-3-3'></a>
 ### 3.3 Applications
 
 
