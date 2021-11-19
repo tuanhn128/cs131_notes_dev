@@ -338,7 +338,7 @@ goal of unsupervised learning is to parse meaning or underlying patterns from un
 
 
 <div class="fig figcenter fighighlight">
-  <img src="{{ site.baseurl }}/assets/images/unsupervised_learing_example.png">
+  <img src="{{ site.baseurl }}/assets/images/unsupervised_learning_example.png">
   <div class="figcaption"> 
 Figure 4: The output of a clustering algorithm which grouped "similar" animals together but was not
 
