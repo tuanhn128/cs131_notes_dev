@@ -38,7 +38,7 @@ to why ML could be useful in the ﬁeld of computer vision.
 15, Slide 8](/assets/images/catordog.png)
 
 <div class="fig figcenter fighighlight">
-  <img src="{{ site.baseurl }}/assets/images/catordog.png">
+  <img src="{{ site.baseurl }}/assets/images/optical illusion.png">
   <div class="figcaption">Figure 1: An optical illusion where the shapes in the picture appear to be moving. Source: Lecture
 
 15, Slide 8</div>
