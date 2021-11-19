@@ -121,7 +121,7 @@ predicts our outcome given a set of data. θ∗ is the parameter that holds the 
 
 the settings that make our model most accurate.
 
-In short, θ* is the argmin over the expectation of our data distribution of the loss function, so it’s the
+In short, \\[\\theta^*\\] is the \\[\textit{argmin}_\theta \\] over the expectation of our data distribution of the loss function, so it’s the
 
 parameter that minimizes the expectation of the loss function. The loss function compares our model
 
