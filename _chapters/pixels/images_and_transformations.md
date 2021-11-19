@@ -671,7 +671,7 @@ identify the behavior of. Source: Lecture 15, Slide 57
 
 and indexing images. For example, ML can be used to aid organization of a personal photo library by
 
-grouping photos with the same person or object together.
+grouping photos with the same person or object together.    
 
 
 
@@ -689,13 +689,13 @@ published an example of a tracking based algorithm which was able to detect whet
 
 nodded or shook their head in their paper Useful Computer Vision Techniques for Human-Robot
 
-Interaction [\[1\].](#br11)
+Interaction [\[1\].](#br11).   
 
 
 
 **Sign Language** ML can also be applied in CV for recognizing sign language. This can aid in the
 
-interpretation and and translation of sign language for those who do not understand it.
+interpretation and and translation of sign language for those who do not understand it.    
 
 
 
@@ -707,7 +707,7 @@ recognition in order to monitor or analyze the activity of patients even without
 
 present. This intelligent monitoring can be very valuable for things like improving clinical workﬂows
 
-or evaluating everyday behavior of certain patients. [\[2\]](#br11)
+or evaluating everyday behavior of certain patients. [\[2\]](#br11).   
 
 
 
@@ -715,7 +715,7 @@ or evaluating everyday behavior of certain patients. [\[2\]](#br11)
 
 include determining if certain events like fouls or goals occurred, and also monitoring the motion of
 
-athletes and their performance.
+athletes and their performance.    
 
 
 
@@ -729,7 +729,7 @@ involves parsing the text of a question and then parsing an associated image to 
 
 ML computer vision can even be used in the realm of art with interesting applications such as neural
 
-networks which transfer "styles" across pieces of art.
+networks which transfer "styles" across pieces of art.    
 
 
 
