@@ -33,10 +33,6 @@ First, it is important to understand how humans see the world around us. This mi
 
 to why ML could be useful in the ﬁeld of computer vision.
 
-![Figure 1: An optical illusion where the shapes in the picture appear to be moving. Source: Lecture
-
-15, Slide 8](/assets/images/catordog.png)
-
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/optical illusion.png">
   <div class="figcaption">Figure 1: An optical illusion where the shapes in the picture appear to be moving. Source: Lecture
@@ -110,7 +106,12 @@ self-driving cars)
 
 ## 2 ML Foundations
 
-Figure 2: A generalized equation describing ML. Source: Lecture 15, Slide 15
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/ml_equation.png">
+  <div class="figcaption">Figure 2: A generalized equation describing ML. Source: Lecture 15, Slide 15</div>
+</div>
+
+
 
 This equation formally describes what ML is. The overall goal is to create a model that accurately
 
@@ -306,9 +307,13 @@ Few-shot learning occurs when training set is limited to just a few examples. Th
 
 is one-shot, where you seek to learn from only a single example.
 
-Figure 3: An example of a classiﬁcation task would be whether this image is of a dog. An example of
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/catordog.png">
+  <div class="figcaption"> Figure 3: An example of a classiﬁcation task would be whether this image is of a dog. An example of
 
-a regression task would be the weight of the dog. Source: Lecture 15, Slide 23
+a regression task would be the weight of the dog. Source: Lecture 15, Slide 23</div>
+</div>
+
 
 #### 2.2.2 Unsupervised Learning
 
@@ -332,11 +337,14 @@ goal of unsupervised learning is to parse meaning or underlying patterns from un
 
 
 
-
-
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/unsupervised_learing_example.png">
+  <div class="figcaption"> 
 Figure 4: The output of a clustering algorithm which grouped "similar" animals together but was not
 
 explicitly given speciﬁc labels to assign, Source: Lecture 15, Slide 24
+</div>
+</div>
 
 #### 2.2.3 Semi-Supervised Learning
 
@@ -436,9 +444,16 @@ Learning can be very powerful, it also comes with risks of overﬁtting, large d
 
 requirements, and ethical issues associated with very large datasets.
 
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/e2e_learning_example.png">
+  <div class="figcaption"> 
+
 Figure 5: A diagram representing end-to-end learning compared to traditional CV approaches. Source:
 
 Lecture 15, Slide 31
+</div>
+</div>
+
 
 ### 2.3 ML Models
 
@@ -452,9 +467,17 @@ probabilistic models like Naive Bayes, etc. An additional consideration is that 
 
 have (implicit) assumptions that ﬁt many CV problems very well.
 
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/ML_model_highlight.png">
+  <div class="figcaption"> 
+
 Figure 6: The generalized ML equation highlighting the model variable. Source: Lecture 15, Slide 32
 
 6
+</div>
+</div>
+
+
 
 
 
@@ -462,7 +485,15 @@ Figure 6: The generalized ML equation highlighting the model variable. Source: L
 
 #### 2.3.1 Deep Learning (DL) Models
 
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/DL_model_pic.png">
+  <div class="figcaption"> 
+
 Figure 7: Generalized ﬂow chart of a DL Model. Source: Lecture 15, Slide 34
+</div>
+</div>
+
+
 
 Deep Learning models are essentially a composition of layers (like linear function layers or sigmoid
 
@@ -552,9 +583,15 @@ predicting y = fˆ(x; θ). Some examples include mean squared error loss, cross-
 
 
 
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/optimization_equation.png">
+  <div class="figcaption"> 
 Figure 8: Generalized equation for ML highlighting the optimization parameter. Source: Lecture 15,
 
 Slide 41
+</div>
+</div>
+
 
 loss, etc. In order to learn and increase optimization, we want to ﬁnd parameters θ∗ that minimize
 
@@ -580,7 +617,16 @@ Often times in building our models there will be a bias-variance tradeoff. In ad
 
 adds additional objective penalizing parts of the hypothesis space.
 
+
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/ml_optimization_graph.png">
+  <div class="figcaption"> 
 Figure 9: Optimization graph for ML Models. Source: Lecture 15, Slide 43
+
+Slide 41
+</div>
+</div>
+
 
 #### 2.3.10 DL Theory
 
@@ -622,15 +668,32 @@ complex questions such as "what digit is written here?". The example included in
 
 shows a model which would be answering whether the image contains a building.
 
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/classification.png">
+  <div class="figcaption"> 
+
 Figure 10: The result of a binary classiﬁcation model detecting the presence of a building. Source:
 
 Lecture 15, Slide 51
 
+Slide 41
+</div>
+</div>
+
+
 #### 3.2.2 Segmentation
 
 Image segmentation is the task of assigning each pixel in an image to a category label.
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/segmentation.png">
+  <div class="figcaption"> 
 
 Figure 11: The result of a segmentation model applied to an image of a street. Source: Lecture 15,
+
+Slide 41
+</div>
+</div>
+
 
 Slide 53
 
@@ -642,27 +705,51 @@ Object detection is the task of locating a speciﬁc object or objects in an ima
 
 
 
-
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/detection.png">
+  <div class="figcaption"> 
 
 Figure 12: The result of a detection model identifying the location of a car. Source: Lecture 15, Slide
+
+Slide 41
+</div>
+</div>
+
+
 
 54
 
 #### 3.2.4 Tracking
 
 Object tracking is the task of locating a speciﬁc object over time in videos.
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/object_tracking.png">
+  <div class="figcaption"> 
 
 Figure 13: The result of a tracking model which tracks paths of cars moving through a street. Source:
 
 https://miro.medium.com/max/1064/1\*7nRA-tBxznPfHKVv48CTYg.png
+</div>
+</div>
+
+
+
 
 #### 3.2.5 Event Recognition
 
 Event recognition is the task of detecting when a speciﬁc event has occurred in a video.
 
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/event recognition.png">
+  <div class="figcaption"> 
+
 Figure 14: An image circling the group of people an event recognition model might be trying to
 
 identify the behavior of. Source: Lecture 15, Slide 57
+</div>
+</div>
+
+
 
 10
 
@@ -726,9 +813,17 @@ ML computer vision can even be used in the realm of art with interesting applica
 
 networks which transfer "styles" across pieces of art.
 
+<div class="fig figcenter fighighlight">
+  <img src="{{ site.baseurl }}/assets/images/style_transfer_example.png">
+  <div class="figcaption"> 
+
 Figure 15: An image depicting the input and output of a style transfer model. Source:
 
 https://colab.research.google.com/github/alzayats/Google\_Colab/blob/master/8\_3\_neural\_style\_transfer.ipynb
+
+</div>
+</div>
+
 
 References
 
