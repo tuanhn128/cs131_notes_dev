@@ -1,5 +1,5 @@
 ---
-title: Images and transformations
+title: ML for CV: A Brief Overview
 keywords: (insert comma-separated keywords here)
 order: 2 # Lecture number for 2020
 ---
