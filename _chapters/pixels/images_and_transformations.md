@@ -521,7 +521,7 @@ models and diffusion models.
 
 The objective function of the optimization portion of the equation is to measure the error incurred by
 
-predicting \\( y\hat{^} = f(x;\theta) \\). Some examples include mean squared error loss, cross-entropy loss, hinge
+predicting \\( \hat{y} = f(x;\theta) \\). Some examples include mean squared error loss, cross-entropy loss, hinge
 
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/optimization_equation.png">
