@@ -17,7 +17,7 @@ Stanford University
 Stanford, CA 94305
 
 {barrowsk, nnaidu, tuanhn, ajrossmn, xuchenw}@cs.stanford.edu
-  </center
+  </center>
 
 ## 1 Why CV Needs ML
 
