@@ -593,7 +593,6 @@ traceability, auditability, safety, and efﬁciency.
 
 
 <a name='third-big-topic'></a>
-##3 ML Applications in CV
 
 <a name='subtopic-3-1'></a>
 ### 3.1 ML Problems in CV
