@@ -9,14 +9,6 @@ order: 2 # Lecture number for 2020
 
 KK Barrows, Nandini Naidu, Tuan Nguyen, AJ Rossman, Xuchen Wei
 
-Department of Computer Science
-
-Stanford University
-
-Stanford, CA 94305
-
-{barrowsk, nnaidu, tuanhn, ajrossmn, xuchenw}@cs.stanford.edu
-
 - [Why CV Needs ML](#first-big-topic)
 	- [How Humans Interpret the World](#subtopic-1-1)
 	- [Understanding Pixels](#subtopic-1-2)
