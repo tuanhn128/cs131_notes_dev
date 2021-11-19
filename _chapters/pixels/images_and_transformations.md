@@ -17,7 +17,7 @@ Stanford, CA 94305
 
 {barrowsk, nnaidu, tuanhn, ajrossmn, xuchenw}@cs.stanford.edu
 
-1 Why CV Needs ML
+##1 Why CV Needs ML
 
 Throughout this quarter, it has been shown how computer vision can accurately and effectively make
 
@@ -27,7 +27,7 @@ sense of the world around us using geometry, linear algebra, or other various me
 
 be helpful in solving computer vision problems?
 
-1.1 How Humans Interpret the World
+###1.1 How Humans Interpret the World
 
 First, it is important to understand how humans see the world around us. This might give us a clue as
 
@@ -55,7 +55,7 @@ Computer Vision: Foundations and Applications (CS 131, 2017), Stanford Universit
 
 
 
-1.2 Understanding Pixels
+###1.2 Understanding Pixels
 
 Computers cannot "see" in the same way that we do. Images for computers are simply pixel arrays
 
@@ -75,7 +75,7 @@ in noisy and imperfect conditions, computers have enough context about the probl
 
 interpret the scene.
 
-1.3 Key Considerations when using ML
+###1.3 Key Considerations when using ML
 
 ML can be an extremely powerful tool. In order to use ML in an effective and safe manner, it is
 
@@ -101,7 +101,7 @@ burden and the decisions these algorithms make can sometimes be in life or death
 
 self-driving cars)
 
-2 ML Foundations
+##2 ML Foundations
 
 Figure 2: A generalized equation describing ML. Source: Lecture 15, Slide 15
 
@@ -127,7 +127,7 @@ D. The lower the expectation of the loss function, the more accurate our model i
 
 
 
-2.1 Data
+###2.1 Data
 
 As previously discussed, understanding how data comes into this equation will summarize much of
 
@@ -181,7 +181,7 @@ assumption. Seeing as humans run data collection, it is entirely possible that w
 
 point along the way, from collection to output labelling.
 
-2.1.1 Datasets
+####2.1.1 Datasets
 
 In ML, we strive for generalization. We want our models to work well on generalized and unseen
 
@@ -215,7 +215,7 @@ While it is important that we collect enough data, we must also keep in mind qua
 
 is not always better to have a bigger dataset if it is not diverse or of high quality.
 
-2.1.2 Statistical hygiene
+####2.1.2 Statistical hygiene
 
 We can estimate generalization, i.e. increase accuracy, by splitting our dataset into three sections: a
 
@@ -255,7 +255,7 @@ have statistical leakage, meaning we have explicitly learned what the test set c
 
 evaluation inaccurate.
 
-2.1.3 The importance of datasets
+####2.1.3 The importance of datasets
 
 Building datasets is generally the hardest part of ML. We build the dataset upstream of the whole
 
@@ -281,9 +281,9 @@ There are many datasets available on line for research. There are more than 5,00
 
 [paperswithcode.com.](https://paperswithcode.com/)
 
-2.2 Types of ML problems
+###2.2 Types of ML problems
 
-2.2.1 Supervised Learning
+####2.2.1 Supervised Learning
 
 Supervised learning is the most common paradigm for machine learning. Supervised learning is
 
@@ -303,7 +303,7 @@ Figure 3: An example of a classiﬁcation task would be whether this image is of
 
 a regression task would be the weight of the dog. Source: Lecture 15, Slide 23
 
-2.2.2 Unsupervised Learning
+####2.2.2 Unsupervised Learning
 
 Unsupervised learning learns from unlabeled data rather than labeled data. One common task of
 
@@ -343,7 +343,7 @@ of this is with auto-labeling, such as labeling videos where the labels are auto
 
 frames.
 
-2.2.4 Transfer Learning
+####2.2.4 Transfer Learning
 
 Transfer learning involves the process of re-using learned knowledge to a new problem. For example,
 
@@ -351,7 +351,7 @@ we may use a model trained for one task and apply it to another task. A case of 
 
 image classiﬁcation model for whether an image is of a car that we try to generalize to trucks.
 
-2.2.5 Domain Adaptation
+####2.2.5 Domain Adaptation
 
 Domain adaptation involves learning on one (source) data distribution and aiming to generalize to
 
@@ -361,7 +361,7 @@ so one distribution can be aligned to another. Some examples include generalizin
 
 nighttime or generalizing from Japan to the united States.
 
-2.2.6 Meta-Learning
+####2.2.6 Meta-Learning
 
 Meta-learning involves learning from multiple related datasets how to quickly learn a new model on
 
@@ -369,7 +369,7 @@ a new dataset. Here we are aiming to ﬁnd a procedure which can quickly generat
 
 given dataset. This is a popular area of current ML research.
 
-2.2.7 Self Supervised Learning
+####2.2.7 Self Supervised Learning
 
 Self supervised learning is the paradigm of learning from an unlabeled dataset along with some form
 
@@ -385,7 +385,7 @@ scale versions. This type of procedure would allow for the training of a supervi
 
 predict these newly created labels, which all were derived from the original unlabeled dataset.
 
-2.2.8 Reinforcement Learning
+####2.2.8 Reinforcement Learning
 
 Reinforcement learning refers to the area of ML involving building a sequential decision-making
 
@@ -413,7 +413,7 @@ and training on the results. It can also be done ofﬂine, in which a model inst
 
 past demonstrations.
 
-2.2.9 Deep Learning
+####2.2.9 Deep Learning
 
 Deep learning refers to the ﬁeld of ML which utilizes neural networks, models which consist of a
 
@@ -433,7 +433,7 @@ Figure 5: A diagram representing end-to-end learning compared to traditional CV 
 
 Lecture 15, Slide 31
 
-2.3 ML Models
+###2.3 ML Models
 
 Choosing the correct ML models depends ﬁrst and foremost on the data type of both x and y. From
 
@@ -453,7 +453,7 @@ Figure 6: The generalized ML equation highlighting the model variable. Source: L
 
 
 
-2.3.1 Deep Learning (DL) Models
+####2.3.1 Deep Learning (DL) Models
 
 Figure 7: Generalized ﬂow chart of a DL Model. Source: Lecture 15, Slide 34
 
@@ -469,7 +469,7 @@ model. In general DL models use many combinations of types of layers and archite
 
 in practice.
 
-2.3.2 MLP: Multi-Layer Perceptron
+####2.3.2 MLP: Multi-Layer Perceptron
 
 A perceptron is deﬁned as f(x; w, b) = sgn(w⊤x + b. MLPs are fully connected nets that take on
 
@@ -485,7 +485,7 @@ arbitrary width/depth MLPs can approximate any function. Some modern MLPs includ
 
 MLP-Mixer.
 
-2.3.3 CNN: Convolutional Neural Network
+####2.3.3 CNN: Convolutional Neural Network
 
 CNNS are a composition of convolutional layers and activation functions like ReLU. CNNS learn
 
@@ -495,19 +495,19 @@ efﬁciency is created through shift-invariance. The ﬁrs CNN was LeNet(LeCun �
 
 most popular CNN is ResNet(He’15).
 
-2.3.4 RNN: Recurrent Neural Network
+####2.3.4 RNN: Recurrent Neural Network
 
 RNNS operate on time series and updates the hidden state recurrently hence the name Recurrent
 
 Neural Networks. There are many variants of RNNs including LSTM, GRU, and ConvGRU.
 
-2.3.5 GNN: Graph Neural Networks
+####2.3.5 GNN: Graph Neural Networks
 
 GNNS operate on graphs. These graphs can be images social, k-NN graphs, molecules, scene graphs,
 
 etc.
 
-2.3.6 Transformer
+####2.3.6 Transformer
 
 The transformer is a simple network architecture based solely on attention mechanisms. The core
 
@@ -523,7 +523,7 @@ Vision Transormer is a variation that employs attention on patches. In addition 
 
 to object detection.
 
-2.3.7 Generative Models
+####2.3.7 Generative Models
 
 The difference between Discriminative vs Generative models can be describes as p(y|x) vs p(x, y). A
 
@@ -533,7 +533,7 @@ by a jointly trained discriminator net. Other options for Generative Models incl
 
 models and diffusion models.
 
-2.3.8 The "Learning" part of ML: Optimization
+####2.3.8 The "Learning" part of ML: Optimization
 
 The objective function of the optimization portion of the equation is to measure the error incurred by
 
@@ -563,7 +563,7 @@ result the modern optimization route includes distributed mini-batch stochastic 
 
 combination with adaptive learning rates.
 
-2.3.9 ML Theory
+####2.3.9 ML Theory
 
 The main question of ML theory is how do we know we are learning a good model? The generalized
 
@@ -575,13 +575,13 @@ adds additional objective penalizing parts of the hypothesis space.
 
 Figure 9: Optimization graph for ML Models. Source: Lecture 15, Slide 43
 
-2.3.10 DL Theory
+####2.3.10 DL Theory
 
 Generalization in deep learning is complicated and not fully understood yet. The best generalization
 
 we have is over-parametrized and overﬁt. The theory of deep learning generally runs behind practice.
 
-2.3.11 ML Engineering
+####2.3.11 ML Engineering
 
 The goal of ML engineering is to solidify the empirical practice of ML. This is key for reproducibility,
 
@@ -593,9 +593,9 @@ traceability, auditability, safety, and efﬁciency.
 
 
 
-3 ML Applications in CV
+##3 ML Applications in CV
 
-3.1 ML Problems in CV
+###3.1 ML Problems in CV
 
 Virtually all problems in CV have ML applications. CV as a high-level challenge involves semantic
 
@@ -603,9 +603,9 @@ understanding from pixel values of images and video. The training of ML models a
 
 understanding to be learned from experience rather than having to be coded explicitly.
 
-3.2 Tasks
+###3.2 Tasks
 
-3.2.1 Classiﬁcation
+####3.2.1 Classiﬁcation
 
 Image classiﬁcation is the task of assigning a single label from a set of a categories to an image.
 
@@ -619,7 +619,7 @@ Figure 10: The result of a binary classiﬁcation model detecting the presence o
 
 Lecture 15, Slide 51
 
-3.2.2 Segmentation
+####3.2.2 Segmentation
 
 Image segmentation is the task of assigning each pixel in an image to a category label.
 
@@ -627,7 +627,7 @@ Figure 11: The result of a segmentation model applied to an image of a street. S
 
 Slide 53
 
-3.2.3 Detection
+####3.2.3 Detection
 
 Object detection is the task of locating a speciﬁc object or objects in an image.
 
@@ -641,7 +641,7 @@ Figure 12: The result of a detection model identifying the location of a car. So
 
 54
 
-3.2.4 Tracking
+####3.2.4 Tracking
 
 Object tracking is the task of locating a speciﬁc object over time in videos.
 
@@ -649,7 +649,7 @@ Figure 13: The result of a tracking model which tracks paths of cars moving thro
 
 https://miro.medium.com/max/1064/1\*7nRA-tBxznPfHKVv48CTYg.png
 
-3.2.5 Event Recognition
+####3.2.5 Event Recognition
 
 Event recognition is the task of detecting when a speciﬁc event has occurred in a video.
 
@@ -663,7 +663,7 @@ identify the behavior of. Source: Lecture 15, Slide 57
 
 
 
-3.3 Applications
+###3.3 Applications
 
 Searching and Indexing Images One application of ML in computer vision would be for searching
 
