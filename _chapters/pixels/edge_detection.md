@@ -1,5 +1,5 @@
 ---
-title: Edge detection
+title: Edge detectio
 keywords: (insert comma-separated keywords here)
 order: 4 # Lecture number for 2020
 ---
