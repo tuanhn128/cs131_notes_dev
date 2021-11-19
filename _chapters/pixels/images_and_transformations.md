@@ -5,7 +5,6 @@ order: 2 # Lecture number for 2020
 ---
 
 
-<center>
 # Lecture #15: ML for CV: A Brief Overview
 
 KK Barrows, Nandini Naidu, Tuan Nguyen, AJ Rossman, Xuchen Wei
@@ -17,7 +16,6 @@ Stanford University
 Stanford, CA 94305
 
 {barrowsk, nnaidu, tuanhn, ajrossmn, xuchenw}@cs.stanford.edu
-  </center>
 
 ## 1 Why CV Needs ML
 
