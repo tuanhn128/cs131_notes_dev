@@ -664,15 +664,11 @@ identify the behavior of.
 <a name='subtopic-3-3'></a>
 ### 3.3 Applications
 
-
-
 **Searching and Indexing Images** One application of ML in computer vision would be for searching
 
 and indexing images. For example, ML can be used to aid organization of a personal photo library by
 
-grouping photos with the same person or object together.    
-
-
+grouping photos with the same person or object together.
 
 **Human-Robot Interaction** ML computer vision tasks are also utilized for the creation of robotic
 
@@ -688,15 +684,11 @@ published an example of a tracking based algorithm which was able to detect whet
 
 nodded or shook their head in their paper Useful Computer Vision Techniques for Human-Robot
 
-Interaction 
-
-
+Interaction
 
 **Sign Language** ML can also be applied in CV for recognizing sign language. This can aid in the
 
-interpretation and and translation of sign language for those who do not understand it.    
-
-
+interpretation and and translation of sign language for those who do not understand it.
 
 **Ambient Intelligence** ML computer vision can also be utilized in the realm of hospitals through
 
@@ -706,17 +698,13 @@ recognition in order to monitor or analyze the activity of patients even without
 
 present. This intelligent monitoring can be very valuable for things like improving clinical workﬂows
 
-or evaluating everyday behavior of certain patients. 
-
-
+or evaluating everyday behavior of certain patients.
 
 **Sport Analysis** Another ML application in CV is the analysis of sports activity. Applications
 
 include determining if certain events like fouls or goals occurred, and also monitoring the motion of
 
 athletes and their performance.
-
-
 
 **Others** Beyond the topics explicitly listed here, ML computer vision also has a variety of other
 
@@ -728,9 +716,7 @@ involves parsing the text of a question and then parsing an associated image to 
 
 ML computer vision can even be used in the realm of art with interesting applications such as neural
 
-networks which transfer "styles" across pieces of art.    
-
-
+networks which transfer "styles" across pieces of art.
 
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/style_transfer_example.png">
