@@ -33,9 +33,9 @@ First, it is important to understand how humans see the world around us. This mi
 
 to why ML could be useful in the ﬁeld of computer vision.
 
-Figure 1: An optical illusion where the shapes in the picture appear to be moving. Source: Lecture
+![Figure 1: An optical illusion where the shapes in the picture appear to be moving. Source: Lecture
 
-15, Slide 8
+15, Slide 8](/assets/images/catordog.png)
 
 Using the example of the picture above, it is apparent that we interpret images using more than just
 
