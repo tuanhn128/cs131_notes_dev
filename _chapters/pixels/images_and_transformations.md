@@ -5,7 +5,7 @@ order: 2 # Lecture number for 2020
 ---
 
 
-Lecture #15: ML for CV: A Brief Overview
+# Lecture #15: ML for CV: A Brief Overview
 
 KK Barrows, Nandini Naidu, Tuan Nguyen, AJ Rossman, Xuchen Wei
 
