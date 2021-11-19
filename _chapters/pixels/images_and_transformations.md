@@ -117,7 +117,7 @@ self-driving cars)
 
 This equation formally describes what ML is. The overall goal is to create a model that accurately
 
-predicts our outcome given a set of data. θ∗ is the parameter that holds the best model parameters, i.e.
+predicts our outcome given a set of data. \\( \theta^* \\) is the parameter that holds the best model parameters, i.e.
 
 the settings that make our model most accurate.
 
@@ -688,7 +688,7 @@ published an example of a tracking based algorithm which was able to detect whet
 
 nodded or shook their head in their paper Useful Computer Vision Techniques for Human-Robot
 
-Interaction [\[1\].](#br11).   
+Interaction 
 
 
 
@@ -706,7 +706,7 @@ recognition in order to monitor or analyze the activity of patients even without
 
 present. This intelligent monitoring can be very valuable for things like improving clinical workﬂows
 
-or evaluating everyday behavior of certain patients. [\[2\]](#br11).   
+or evaluating everyday behavior of certain patients. 
 
 
 
@@ -714,7 +714,7 @@ or evaluating everyday behavior of certain patients. [\[2\]](#br11).
 
 include determining if certain events like fouls or goals occurred, and also monitoring the motion of
 
-athletes and their performance.    
+athletes and their performance.
 
 
 
