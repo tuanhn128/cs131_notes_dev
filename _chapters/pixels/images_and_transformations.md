@@ -121,7 +121,7 @@ predicts our outcome given a set of data. θ∗ is the parameter that holds the 
 
 the settings that make our model most accurate.
 
-In short, \\[\\theta^*\\] is the \\[\textit{argmin}_\theta \\] over the expectation of our data distribution of the loss function, so it’s the
+In short, \\(\theta^*\\) is the \\(\textit{argmin}_\theta \\) over the expectation of our data distribution of the loss function, so it’s the
 
 parameter that minimizes the expectation of the loss function. The loss function compares our model
 
@@ -157,7 +157,7 @@ this entire distribution because it is from the real world. This also means that
 
 the expectation. However, we can sample from the world. We take n samples from the real-world
 
-distribution D and compute a sum over all (x , y ) where 1 ≤ i ≤ n. In other words, we are creating
+distribution D and compute a sum over all \\( (x_i, y_i) \\) where 1 ≤ i ≤ n. In other words, we are creating
 
 a dataset of size n made up of sample data from the real world, i.e. our distribution D. We can then
 
@@ -167,7 +167,7 @@ To build our dataset of size n, we begin with our unknown distribution D. We sam
 
 to build the dataset. In ML, we must assume that the data we sample is independent and identically
 
-distributed (i.i.d.), meaning the (x , y ) pairs have no correlation other than the fact that they are
+distributed (i.i.d.), meaning the \\( (x_i, y_i) \\) pairs have no correlation other than the fact that they are
 
 from the same dataset. This is a fundamental assumption in ML, however, this is not always a fair
 
@@ -185,7 +185,7 @@ world so that it can better approximate the expectation of D. The less our datas
 
 world distribution, the worse our approximation will be.
 
-Generalization is a challenge because we only have a ﬁnite sample Dˆ = {(x , y ) ∼ D, i = 1 : n}.
+Generalization is a challenge because we only have a *ﬁnite* sample \\( \hat{D}=\{(x_i, y_i)\sim D, i=1:n\} \\).
 
 This brings us to an important question: how big should the dataset be? Sometimes we have cues,
 
@@ -215,7 +215,7 @@ Training set: The training set usually contains most of our dataset, about 50-80
 
 size of the dataset. We run the training set through the model many times to learn and tune our model
 
-parameters, θ∗.
+parameters, \\( \theta^* \\).
 
 Validation set: The validation set should be a small representative fraction of our dataset, approx-
 
@@ -464,9 +464,9 @@ in practice.
 
 #### 2.3.2 MLP: Multi-Layer Perceptron
 
-A perceptron is deﬁned as f(x; w, b) = sgn(w⊤x + b. MLPs are fully connected nets that take on
+A perceptron is deﬁned as \\( f(x; w, b) = sgn(w^\top x + b \\). MLPs are fully connected nets that take on
 
-the general form of f(x; θ) = g ◦ · · · ◦ g (x). The layers of MLPs include linear weighting
+the general form of \\( f(x;\theta) = g_{\theta}_{1} \circ \cdots \circ g_{\theta}_{N}(x) \\). The layers of MLPs include linear weighting
 
 and activation functions. For MLPs the Universal Approximation Theorem applies meaning that an
 
@@ -500,7 +500,7 @@ etc.
 
 The transformer is a simple network architecture based solely on attention mechanisms. The core
 
-concept is self-attention which can be described by Attention(Q, K, V ) = softmax(√QK )V . A
+concept is self-attention which can be described by \\( Attention(Q, K, V) = softmax(\frac{QK^T}{\sqrt()d_k})V \\). A
 
 Vision Transormer is a variation that employs attention on patches. In addition DETR has applications
 
@@ -520,7 +520,7 @@ models and diffusion models.
 
 The objective function of the optimization portion of the equation is to measure the error incurred by
 
-predicting y = fˆ(x; θ). Some examples include mean squared error loss, cross-entropy loss, hinge
+predicting \\( y\hat{^} = f(x;\theta) \\). Some examples include mean squared error loss, cross-entropy loss, hinge
 
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/optimization_equation.png">
@@ -529,7 +529,7 @@ Figure 8: Generalized equation for ML highlighting the optimization parameter.
 </div>
 </div>
 
-loss, etc. In order to learn and increase optimization, we want to ﬁnd parameters θ∗ that minimize
+loss, etc. In order to learn and increase optimization, we want to ﬁnd parameters \\( \theta ^ * \\) that minimize
 
 the error over the training set. The main method of optimization is gradient descent. However to
 
