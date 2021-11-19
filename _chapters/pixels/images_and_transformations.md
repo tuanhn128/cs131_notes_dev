@@ -15,7 +15,7 @@ KK Barrows, Nandini Naidu, Tuan Nguyen, AJ Rossman, Xuchen Wei
 	- [Key Considerations when using ML](#subtopic-1-3)
 - [ML Foundations](#second-big-topic)
 	- [Data](#subtopic-2-1)
-	- [Types of ML problemsn](#subtopic-2-2)
+	- [Types of ML problems](#subtopic-2-2)
 	- [ML Models](#subtopic-2-3)
 - [ML Applications in CV](#third-big-topic)
 	- [ML Problems in CV](#subtopic-3-1)
