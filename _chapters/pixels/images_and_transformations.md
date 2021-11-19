@@ -110,7 +110,7 @@ self-driving cars)
 
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/ml_equation.png">
-  <div class="figcaption">Figure 2: A generalized equation describing ML. Source: Lecture 15, Slide 15</div>
+  <div class="figcaption">Figure 2: A generalized equation describing ML.</div>
 </div>
 
 
