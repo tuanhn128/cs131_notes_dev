@@ -17,6 +17,19 @@ Stanford, CA 94305
 
 {barrowsk, nnaidu, tuanhn, ajrossmn, xuchenw}@cs.stanford.edu
 
+- [Why CV Needs ML](#first-big-topic)
+	- [How Humans Interpret the World](#subtopic-1-1)
+	- [Understanding Pixels](#subtopic-1-2)
+	- [Key Considerations when using ML](#subtopic-1-3)
+- [ML Foundations](#first-big-topic)
+	- [Data](#subtopic-1-1)
+	- [Types of ML problemsn](#subtopic-1-2)
+	- [ML Models](#subtopic-1-3)
+- [ML Applications in CV](#first-big-topic)
+	- [ML Problems in CV](#subtopic-1-1)
+	- [Tasks](#subtopic-1-2)
+	- [Applications](#subtopic-1-3)
+
 ## 1 Why CV Needs ML
 
 Throughout this quarter, it has been shown how computer vision can accurately and effectively make
