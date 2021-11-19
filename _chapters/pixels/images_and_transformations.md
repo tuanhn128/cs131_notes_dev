@@ -52,12 +52,6 @@ allow us to do the same thing: apply past knowledge and data to help better unde
 
 image.
 
-Computer Vision: Foundations and Applications (CS 131, 2017), Stanford University.
-
-
-
-
-
 ### 1.2 Understanding Pixels
 
 Computers cannot "see" in the same way that we do. Images for computers are simply pixel arrays
@@ -119,17 +113,13 @@ predicts our outcome given a set of data. θ∗ is the parameter that holds the 
 
 the settings that make our model most accurate.
 
-In short, θ∗ is the argmin over the expectation of our data distribution of the loss function, so it’s the
-
-θ
+In short, θ* is the argmin over the expectation of our data distribution of the loss function, so it’s the
 
 parameter that minimizes the expectation of the loss function. The loss function compares our model
 
 to the ground truth. We get this by optimizing over a dataset, which is sampled from the distribution,
 
 D. The lower the expectation of the loss function, the more accurate our model is.
-
-2
 
 
 
@@ -161,27 +151,15 @@ the expectation. However, we can sample from the world. We take n samples from t
 
 distribution D and compute a sum over all (x , y ) where 1 ≤ i ≤ n. In other words, we are creating
 
-i
-
-i
-
 a dataset of size n made up of sample data from the real world, i.e. our distribution D. We can then
 
 approximate our expectation, our inﬁnite sum, with a ﬁnite sum.
 
 To build our dataset of size n, we begin with our unknown distribution D. We sample (x , y ) ∼ D
 
-i
-
-i
-
 to build the dataset. In ML, we must assume that the data we sample is independent and identically
 
 distributed (i.i.d.), meaning the (x , y ) pairs have no correlation other than the fact that they are
-
-i
-
-i
 
 from the same dataset. This is a fundamental assumption in ML, however, this is not always a fair
 
@@ -200,10 +178,6 @@ world so that it can better approximate the expectation of D. The less our datas
 world distribution, the worse our approximation will be.
 
 Generalization is a challenge because we only have a ﬁnite sample Dˆ = {(x , y ) ∼ D, i = 1 : n}.
-
-i
-
-i
 
 This brings us to an important question: how big should the dataset be? Sometimes we have cues,
 
@@ -250,12 +224,6 @@ design decisions.
 Test set: The test set should be the same size or bigger than your validation set. We only look
 
 at the test set once because we use it to evaluate our model and need the data to be unseen. The
-
-3
-
-
-
-
 
 test set should only be seen after many rounds of training and validation. Otherwise, we may
 
@@ -333,10 +301,6 @@ Unlike supervised learning, which optimizes for accurate "predictions" trained o
 
 goal of unsupervised learning is to parse meaning or underlying patterns from unlabeled data.
 
-4
-
-
-
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/unsupervised_learning_example.png">
   <div class="figcaption"> 
@@ -408,12 +372,6 @@ policy (recommending actions based on current state) in order to maximize some c
 
 in an environment. For example, a reinforcement learning model could be trained to look at the board
 
-5
-
-
-
-
-
 of a board game (state) and recommend an optimal move (action) for highest future win probability
 
 (reward). This learning paradigm was famously used by Google’s DeepMind in order to beat a human
@@ -472,16 +430,8 @@ have (implicit) assumptions that ﬁt many CV problems very well.
   <div class="figcaption"> 
 
 Figure 6: The generalized ML equation highlighting the model variable. Source: Lecture 15, Slide 32
-
-6
 </div>
 </div>
-
-
-
-
-
-
 
 #### 2.3.1 Deep Learning (DL) Models
 
@@ -492,8 +442,6 @@ Figure 6: The generalized ML equation highlighting the model variable. Source: L
 Figure 7: Generalized ﬂow chart of a DL Model. Source: Lecture 15, Slide 34
 </div>
 </div>
-
-
 
 Deep Learning models are essentially a composition of layers (like linear function layers or sigmoid
 
@@ -512,10 +460,6 @@ in practice.
 A perceptron is deﬁned as f(x; w, b) = sgn(w⊤x + b. MLPs are fully connected nets that take on
 
 the general form of f(x; θ) = g ◦ · · · ◦ g (x). The layers of MLPs include linear weighting
-
-θ1
-
-θN
 
 and activation functions. For MLPs the Universal Approximation Theorem applies meaning that an
 
@@ -549,13 +493,7 @@ etc.
 
 The transformer is a simple network architecture based solely on attention mechanisms. The core
 
-T
-
 concept is self-attention which can be described by Attention(Q, K, V ) = softmax(√QK )V . A
-
-()d
-
-k
 
 Vision Transormer is a variation that employs attention on patches. In addition DETR has applications
 
@@ -577,12 +515,6 @@ The objective function of the optimization portion of the equation is to measure
 
 predicting y = fˆ(x; θ). Some examples include mean squared error loss, cross-entropy loss, hinge
 
-7
-
-
-
-
-
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/optimization_equation.png">
   <div class="figcaption"> 
@@ -591,7 +523,6 @@ Figure 8: Generalized equation for ML highlighting the optimization parameter. S
 Slide 41
 </div>
 </div>
-
 
 loss, etc. In order to learn and increase optimization, we want to ﬁnd parameters θ∗ that minimize
 
@@ -639,12 +570,6 @@ we have is over-parametrized and overﬁt. The theory of deep learning generally
 The goal of ML engineering is to solidify the empirical practice of ML. This is key for reproducibility,
 
 traceability, auditability, safety, and efﬁciency.
-
-8
-
-
-
-
 
 ##3 ML Applications in CV
 
@@ -701,10 +626,6 @@ Slide 53
 
 Object detection is the task of locating a speciﬁc object or objects in an image.
 
-9
-
-
-
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/detection.png">
   <div class="figcaption"> 
@@ -714,10 +635,6 @@ Figure 12: The result of a detection model identifying the location of a car. So
 Slide 41
 </div>
 </div>
-
-
-
-54
 
 #### 3.2.4 Tracking
 
@@ -732,9 +649,6 @@ https://miro.medium.com/max/1064/1\*7nRA-tBxznPfHKVv48CTYg.png
 </div>
 </div>
 
-
-
-
 #### 3.2.5 Event Recognition
 
 Event recognition is the task of detecting when a speciﬁc event has occurred in a video.
@@ -748,14 +662,6 @@ Figure 14: An image circling the group of people an event recognition model migh
 identify the behavior of. Source: Lecture 15, Slide 57
 </div>
 </div>
-
-
-
-10
-
-
-
-
 
 ### 3.3 Applications
 
