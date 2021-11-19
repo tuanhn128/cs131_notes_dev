@@ -665,13 +665,13 @@ identify the behavior of. Source: Lecture 15, Slide 57
 
 ### 3.3 Applications
 
-Searching and Indexing Images One application of ML in computer vision would be for searching
+**Searching and Indexing Images** One application of ML in computer vision would be for searching
 
 and indexing images. For example, ML can be used to aid organization of a personal photo library by
 
 grouping photos with the same person or object together.
 
-Human-Robot Interaction ML computer vision tasks are also utilized for the creation of robotic
+**Human-Robot Interaction** ML computer vision tasks are also utilized for the creation of robotic
 
 systems which work for and with humans. Robots can include cameras in order to gain information
 
@@ -687,11 +687,11 @@ nodded or shook their head in their paper Useful Computer Vision Techniques for 
 
 Interaction [\[1\].](#br11)
 
-Sign Language ML can also be applied in CV for recognizing sign language. This can aid in the
+**Sign Language** ML can also be applied in CV for recognizing sign language. This can aid in the
 
 interpretation and and translation of sign language for those who do not understand it.
 
-Ambient Intelligence ML computer vision can also be utilized in the realm of hospitals through
+**Ambient Intelligence** ML computer vision can also be utilized in the realm of hospitals through
 
 the form of ambient intelligence. Ambient intelligence can use object detection, tracking, and event
 
@@ -701,13 +701,13 @@ present. This intelligent monitoring can be very valuable for things like improv
 
 or evaluating everyday behavior of certain patients. [\[2\]](#br11)
 
-Sport Analysis Another ML application in CV is the analysis of sports activity. Applications
+**Sport Analysis** Another ML application in CV is the analysis of sports activity. Applications
 
 include determining if certain events like fouls or goals occurred, and also monitoring the motion of
 
 athletes and their performance.
 
-Others Beyond the topics explicitly listed here, ML computer vision also has a variety of other
+**Others** Beyond the topics explicitly listed here, ML computer vision also has a variety of other
 
 applications. These other applications might involve combining CV with other ML ﬁelds such as
 
