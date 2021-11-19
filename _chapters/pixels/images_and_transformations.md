@@ -621,9 +621,6 @@ Figure 11: The result of a segmentation model applied to an image of a street.
 </div>
 </div>
 
-
-Slide 53
-
 #### 3.2.3 Detection
 
 Object detection is the task of locating a speciﬁc object or objects in an image.
@@ -741,6 +738,3 @@ pages 725–723, 2004.
 [2] Albert Haque, Arnold Milstein, and Li Fei-Fei. Illuminating the dark spaces of healthcare with ambient
 
 intelligence. Nature, 585(7824):193–202, 2020.
-
-11
-
