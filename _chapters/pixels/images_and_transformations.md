@@ -42,9 +42,7 @@ to why ML could be useful in the ﬁeld of computer vision.
 
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/optical illusion.png">
-  <div class="figcaption">Figure 1: An optical illusion where the shapes in the picture appear to be moving. Source: Lecture
-
-15, Slide 8</div>
+  <div class="figcaption">Figure 1: An optical illusion where the shapes in the picture appear to be moving.</div>
 </div>
 
 Using the example of the picture above, it is apparent that we interpret images using more than just
@@ -291,7 +289,7 @@ is one-shot, where you seek to learn from only a single example.
   <img src="{{ site.baseurl }}/assets/images/catordog.png">
   <div class="figcaption"> Figure 3: An example of a classiﬁcation task would be whether this image is of a dog. An example of
 
-a regression task would be the weight of the dog. Source: Lecture 15, Slide 23</div>
+a regression task would be the weight of the dog. </div>
 </div>
 
 
@@ -318,7 +316,7 @@ goal of unsupervised learning is to parse meaning or underlying patterns from un
   <div class="figcaption"> 
 Figure 4: The output of a clustering algorithm which grouped "similar" animals together but was not
 
-explicitly given speciﬁc labels to assign, Source: Lecture 15, Slide 24
+explicitly given speciﬁc labels to assign.
 </div>
 </div>
 
@@ -418,9 +416,7 @@ requirements, and ethical issues associated with very large datasets.
   <img src="{{ site.baseurl }}/assets/images/e2e_learning_example.png">
   <div class="figcaption"> 
 
-Figure 5: A diagram representing end-to-end learning compared to traditional CV approaches. Source:
-
-Lecture 15, Slide 31
+Figure 5: A diagram representing end-to-end learning compared to traditional CV approaches.
 </div>
 </div>
 
@@ -441,8 +437,7 @@ have (implicit) assumptions that ﬁt many CV problems very well.
   <img src="{{ site.baseurl }}/assets/images/ML_model_highlight.png">
   <div class="figcaption"> 
 
-Figure 6: The generalized ML equation highlighting the model variable. Source: Lecture 15, Slide 32
-</div>
+Figure 6: The generalized ML equation highlighting the model variable.
 </div>
 
 #### 2.3.1 Deep Learning (DL) Models
@@ -451,7 +446,7 @@ Figure 6: The generalized ML equation highlighting the model variable. Source: L
   <img src="{{ site.baseurl }}/assets/images/DL_model_pic.png">
   <div class="figcaption"> 
 
-Figure 7: Generalized ﬂow chart of a DL Model. Source: Lecture 15, Slide 34
+Figure 7: Generalized ﬂow chart of a DL Model.
 </div>
 </div>
 
@@ -530,9 +525,7 @@ predicting y = fˆ(x; θ). Some examples include mean squared error loss, cross-
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/optimization_equation.png">
   <div class="figcaption"> 
-Figure 8: Generalized equation for ML highlighting the optimization parameter. Source: Lecture 15,
-
-Slide 41
+Figure 8: Generalized equation for ML highlighting the optimization parameter.
 </div>
 </div>
 
@@ -564,9 +557,7 @@ adds additional objective penalizing parts of the hypothesis space.
 <div class="fig figcenter fighighlight">
   <img src="{{ site.baseurl }}/assets/images/ml_optimization_graph.png">
   <div class="figcaption"> 
-Figure 9: Optimization graph for ML Models. Source: Lecture 15, Slide 43
-
-Slide 41
+Figure 9: Optimization graph for ML Models.
 </div>
 </div>
 
@@ -612,11 +603,7 @@ shows a model which would be answering whether the image contains a building.
   <img src="{{ site.baseurl }}/assets/images/classification.png">
   <div class="figcaption"> 
 
-Figure 10: The result of a binary classiﬁcation model detecting the presence of a building. Source:
-
-Lecture 15, Slide 51
-
-Slide 41
+Figure 10: The result of a binary classiﬁcation model detecting the presence of a building.
 </div>
 </div>
 
@@ -628,9 +615,7 @@ Image segmentation is the task of assigning each pixel in an image to a category
   <img src="{{ site.baseurl }}/assets/images/segmentation.png">
   <div class="figcaption"> 
 
-Figure 11: The result of a segmentation model applied to an image of a street. Source: Lecture 15,
-
-Slide 41
+Figure 11: The result of a segmentation model applied to an image of a street.
 </div>
 </div>
 
@@ -645,9 +630,7 @@ Object detection is the task of locating a speciﬁc object or objects in an ima
   <img src="{{ site.baseurl }}/assets/images/detection.png">
   <div class="figcaption"> 
 
-Figure 12: The result of a detection model identifying the location of a car. Source: Lecture 15, Slide
-
-Slide 41
+Figure 12: The result of a detection model identifying the location of a car.
 </div>
 </div>
 
@@ -674,7 +657,7 @@ Event recognition is the task of detecting when a speciﬁc event has occurred i
 
 Figure 14: An image circling the group of people an event recognition model might be trying to
 
-identify the behavior of. Source: Lecture 15, Slide 57
+identify the behavior of.
 </div>
 </div>
 
